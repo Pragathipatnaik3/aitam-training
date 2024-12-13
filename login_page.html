@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">First Name:</label>
+        <input type="text" name="" id="name" placeholder="Enter your first Name">
+        <br><br>
+        <label for="name">Last Name:</label>
+        <input type="text" name="" id="name" placeholder="Enter your Last Name">
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="" id="age" placeholder="Age">
+        <br><br>
+        <label for="mail">Email:</label>
+        <input type="email" name="" id="mail" placeholder="Enter yout Email">
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="checkbox" name="" id="gender" >Male
+        <input type="checkbox" name="" id="gender">Female
+        <input type="checkbox" name="" id="gender">Others
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="" id="password" placeholder="password">
+        <br><br>
+        <label for="confirm">Confirm Password:</label>
+        <input type="password" name="" id="confirm" placeholder="confirm password">
+        <br><br>
+        <label for="submit"></label>
+        <input type="submit" value="Submit">
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Education section</legend>
+            <label for="degree">Degree:</label>
+            <input type="text" name="" id="degree" placeholder="Enter your Degree">
+            <br><br>
+            <label for="institute">Institution:</label>
+            <input type="text" name="" id="institute" placeholder="Enter your Institution Name">
+        </fieldset>
+        <br><br>
+        <textarea name="" id="" placeholder="Enter your feedback..." rows="2" cols="12"></textarea>
+
+        <!-- button method -->
+         <button>Click here </button>
+<br><br>
+         <!-- how to make dropdown -->
+          <!-- using select and option element -->
+        
+          <select name="country" id="">
+            <option value="us">US</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+          </select>
+
+          <br><br>
+
+          <!-- optgroup to categorize elements -->
+           <select>
+            <optgroup label="Cars">
+                    <option value="Swift">Swift</option>
+                    <option value="alto">Alto</option>
+            </optgroup>
+            <optgroup label="bikes">
+                <option value="pulsar">Pulsar</option>
+                <option value="apache">Apache</option>
+            </optgroup>
+            <optgroup label="truck">
+            <option value="tata">TATA</option>
+            <option value="mahindra">Mahindra</option>
+            </optgroup>
+           </select>
+
+            <br><br>
+
+           <fieldset>
+            <legend>Dishes we offer</legend>
+            <select>
+                
+                <optgroup label="panner">
+                    <option value="panner curry">Panner Curry</option>
+                    <option value="panner biryani">Panner Biryani</option>
+                </optgroup>
+                <optgroup label="mushroom">
+                    <option value="mushroom curry">Mushroom Curry</option>
+                    <option value="mushroom biryani">Mushroom Biryani</option>
+                </optgroup>
+
+            
+            
+                <optgroup label="chciken">
+                    <option value="chicken curry">Chicken Curry</option>
+                    <option value="chicken biryani">Chicken Biryani</option>
+                </optgroup>
+        
+        </select>
+           </fieldset>
+
+
+
+           <!-- datalist tag in html -->
+            <input type="text" list="icecreams" name="ice-cream-flavour" id="ice-cream-flavour">
+
+            <datalist id="ice-cream-flavour">
+                    <option value="chocolate"></option>
+                    <option value="vanilla"></option>
+                    <option value="strawberry"></option>
+                    <option value="american nuts"></option>
+            </datalist>
+        </form>
+
+
+</body>
+</html>
